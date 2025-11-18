@@ -486,7 +486,7 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 </div>
 <p>If a kicker “makes or breaks” the season, then the teams with the most accurate kickers should cluster toward the top of the graph. But that is not the reality. In fact, this graph demonstrates that there is little correlation at all between an accurate kicker and a winning team.</p>
 <p>We can also see that a shaky kicker doesn’t automatically ruin a season. Even the teams with less accurate kickers have better win-loss percentages than teams with significantly more accurate feet behind the ball.</p>
-<p>But that can’t be right? Thousands of screens across America have been turned off in stunned silence after a missed field goal. The reverberations of the ball off the uprights has caused football fans everywhere to lose sleep.</p>
+<p>But that can’t be, right? Thousands of screens across America have been turned off in stunned silence after a missed field goal. The reverberations of the ball off the uprights have caused football fans everywhere to lose sleep. There has got to be a bigger effect.</p>
 <p>Let’s try another visual, this time looking at how many points the kickers are responsible for in comparison to the rest of the team.</p>
 <div class="cell">
 <details class="code-fold">
@@ -593,7 +593,7 @@ font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Kicker Points"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Other Points"</span>)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Offensive Points"</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb2-20">  <span class="fu" style="color: #4758AB;
@@ -603,6 +603,10 @@ background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Kicker Contribution to Team Points"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"How many points are kickers scoring compared to the rest of the team?"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -625,8 +629,9 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 </div>
 </div>
 </div>
-<p>Here we can see that kickers contributed a fairly consistent amount of points across NFC teams in the 2024 season. It is clear that the majority of points scored are coming from offensive players but this graph also tells another interesting story.</p>
-<p>That low scoring chunk of teams all have kickers that scored about the same amount as the high scoring teams, meaning teams that have a less effective offense rely more on their kickers to score them points. Inversely, the higher scoring teams don’t have smaller amounts of kicker points which shows that even elite offenses lean on their kicker to finish drives.</p>
+<p>In the 2024 season across the board, it is clear that the majority of points scored are coming from offensive players, not the kickers. While the number of points scored by the kicker was fairly consistent, the variations in the ratio compared to offensive points shed light on when kickers may truly play a more important part in a team’s success.</p>
+<p>The low scoring chunk of teams all have kickers that scored about the same amount as the high scoring teams, meaning teams that have a less effective offense rely more on their kickers to score them points.</p>
+<p>The next visualization goes a little deeper into what kicker performance meant for each team in the NFC in 2024.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -884,7 +889,11 @@ font-style: inherit;">"none"</span></span>
 </div>
 </div>
 </div>
-<p>Here, you can see the Cowboys have a strong kicker based on points scored, however, that kicker is responsible for almost 35% of his teams’ points. Even the best kicker in the world cannot make up for a lack of scoring by the rest of his team. The Lions are a display of how overall team strength is affected when both the kicker and the offense do their jobs in running up the score.</p>
+<p>This tells us a lot about how important kickers are to each individual team. The teams in the middle re-enforce the earlier sentiment that kickers have little effect on overall team strength, but there are interesting stories in the anomalies.</p>
+<p>The Cowboys stick out as they have a strong kicker based on points scored. However, that kicker handled almost 35% of his team’s points. Even the best kicker in the world cannot make up for a lack of scoring by the rest of his team.</p>
+<p>The Lions show the flip side of that coin. Their team’s strength was high, and their kicker’s contribution was low, meaning that they were ending most of their drives in touchdowns rather than field goals, which ultimately resulted in a more successful season.</p>
+<p>The sad little point at the bottom, the Carolina Panthers, are an interesting case of struggling so badly to get into scoring range that their kicker couldn’t be a factor in the season’s outcome at all.</p>
+<p>In conclusion, be nicer to your kickers. Their points being scored in more high-stakes situations is caused by a failure in the offense to perform as they should. If the offense can’t do their job, neither can the kicker, and even if the kicker didn’t, it still would not have a significant outcome on the season’s result.</p>
 
 
 
