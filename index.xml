@@ -21,7 +21,9 @@
 
 
 
-<p>Are kickers the most important part of a football team? How much do their points matter to a teams’ result</p>
+<p>Few positions on an NFL team take more heat than the kicker.</p>
+<p>Many games have been decided by one monumental field goal try in the last few minutes of the game. As a Bears fan, I know well enough that a kicker can seemingly make or break a season, but how important are their points to the season as a whole?</p>
+<p>The following visualizations examine this exact question and demonstrate how circumstance may cause kickers to take more blame than they should for the outcomes of their seasons. I will specifically be looking at the 2024 NFC, as kickers played a significant role.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -395,9 +397,24 @@ font-style: inherit;">filter</span>(Team <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> nfc_2024<span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">$</span>Team)</span>
-<span id="cb1-46"></span>
-<span id="cb1-47"><span class="fu" style="color: #4758AB;
+font-style: inherit;">$</span>Team)  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb1-46">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">FG%</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-47"></span>
+<span id="cb1-48"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(nfc_kicking_2024, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -420,7 +437,7 @@ background-color: null;
 font-style: inherit;">`</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-48">  <span class="fu" style="color: #4758AB;
+<span id="cb1-49">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -429,28 +446,33 @@ background-color: null;
 font-style: inherit;">"red"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-49">  <span class="fu" style="color: #4758AB;
+<span id="cb1-50">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb1-50">    <span class="at" style="color: #657422;
+<span id="cb1-51">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Field Goal Percentage"</span>,</span>
-<span id="cb1-51">    <span class="at" style="color: #657422;
+<span id="cb1-52">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Win-Loss Percentage"</span>,</span>
-<span id="cb1-52">    <span class="at" style="color: #657422;
+<span id="cb1-53">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Field Goal Percentage compared to Win-Loss Percentage"</span></span>
-<span id="cb1-53">  ) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">"Kicker Accuracy Compared to Overall Team Win-Loss Percentage"</span>,</span>
+<span id="cb1-54">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Does Having an Accurate Kicker Guarantee More Wins?"</span></span>
+<span id="cb1-55">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-54">  <span class="fu" style="color: #4758AB;
+<span id="cb1-56">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 </details>
@@ -462,7 +484,10 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 </div>
 </div>
 </div>
-<p>Here we can see that This graph shows that good kickers may not necessarily make a great team, now lets look at how many point those kickers are actually responsible for.</p>
+<p>If a kicker “makes or breaks” the season, then the teams with the most accurate kickers should cluster toward the top of the graph. But that is not the reality. In fact, this graph demonstrates that there is little correlation at all between an accurate kicker and a winning team.</p>
+<p>We can also see that a shaky kicker doesn’t automatically ruin a season. Even the teams with less accurate kickers have better win-loss percentages than teams with significantly more accurate feet behind the ball.</p>
+<p>But that can’t be right? Thousands of screens across America have been turned off in stunned silence after a missed field goal. The reverberations of the ball off the uprights has caused football fans everywhere to lose sleep.</p>
+<p>Let’s try another visual, this time looking at how many points the kickers are responsible for in comparison to the rest of the team.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -600,7 +625,8 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 </div>
 </div>
 </div>
-<p>Now onto the last chart which explains blah blah blah</p>
+<p>Here we can see that kickers contributed a fairly consistent amount of points across NFC teams in the 2024 season. It is clear that the majority of points scored are coming from offensive players but this graph also tells another interesting story.</p>
+<p>That low scoring chunk of teams all have kickers that scored about the same amount as the high scoring teams, meaning teams that have a less effective offense rely more on their kickers to score them points. Inversely, the higher scoring teams don’t have smaller amounts of kicker points which shows that even elite offenses lean on their kicker to finish drives.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
