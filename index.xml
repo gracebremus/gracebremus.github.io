@@ -491,7 +491,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">15</span>, <span class="at" style="color: #657422;
+font-style: inherit;">20</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -560,7 +560,7 @@ font-style: inherit;">c</span>(other_PTS,kicker_PTS),</span>
 background-color: null;
 font-style: inherit;">names_to =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Point Totals"</span>,</span>
+font-style: inherit;">"Points_Type"</span>,</span>
 <span id="cb2-13">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">values_to =</span> <span class="st" style="color: #20794D;
@@ -579,13 +579,7 @@ font-style: inherit;">reorder</span>(Team, TeamPts), <span class="at" style="col
 background-color: null;
 font-style: inherit;">y =</span> Points, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">`</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Point Totals</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">`</span>)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">fill =</span> Points_Type)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb2-16">  <span class="fu" style="color: #4758AB;
@@ -606,13 +600,13 @@ font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Kicker Points"</span> <span class="ot" style="color: #003B4F;
+font-style: inherit;">"kicker_PTS"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"red"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Offensive Points"</span> <span class="ot" style="color: #003B4F;
+font-style: inherit;">"other_PTS"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
