@@ -491,7 +491,7 @@ font-style: inherit;">element_text</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span>, <span class="at" style="color: #657422;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -898,7 +898,7 @@ font-style: inherit;">"How Much do Kickers Really Decide a Season?"</span>, <spa
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Revealing how team power shapes kicker contribution"</span>, <span class="at" style="color: #657422;
+font-style: inherit;">"Revealing How Team Power Shapes Kicker Contribution"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
