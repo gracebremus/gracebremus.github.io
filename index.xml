@@ -468,7 +468,11 @@ font-style: inherit;">"Kicker Accuracy Compared to Overall Team Win-Loss Percent
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Does Having an Accurate Kicker Guarantee More Wins?"</span></span>
+font-style: inherit;">"Does Having an Accurate Kicker Guarantee More Wins?"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Source: Pro Football Reference | By Grace Remus"</span></span>
 <span id="cb1-55">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
@@ -607,6 +611,10 @@ background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"How many points are kickers scoring compared to the rest of the team?"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Source: Pro Football Reference | By Grace Remus"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -842,7 +850,15 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Kicker Contribution vs Team Strength (SRS)"</span>,</span>
+font-style: inherit;">"How Much do Kickers Really Decide a Season?"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Revealing how team power shapes kicker contribution"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Source: Pro Football Reference | By Grace Remus"</span>,</span>
 <span id="cb3-29">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
