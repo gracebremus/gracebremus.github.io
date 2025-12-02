@@ -10,7 +10,40 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A place to look at sports with a more analytical eye</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Mon, 17 Nov 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 09 Dec 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Florida Panthers 2024-25 Stanley Cup Run</title>
+  <dc:creator>Grace B. Remus</dc:creator>
+  <link>https://your-website-url.example.com/posts/panthers-2024-2025-Stanley-Cup-run/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The 2024-25 Panthers won the cup in a resounding fashion. What led to their championship win?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggrepel)</span></code></pre></div></div>
+</details>
+</div>
+
+
+
+ ]]></description>
+  <category>hockey</category>
+  <category>nhl</category>
+  <category>stanleycup</category>
+  <guid>https://your-website-url.example.com/posts/panthers-2024-2025-Stanley-Cup-run/</guid>
+  <pubDate>Tue, 09 Dec 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/panthers-2024-2025-Stanley-Cup-run/blairwalsh.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>How Important are Kickers in Securing Wins?</title>
   <dc:creator>Grace B. Remus</dc:creator>
