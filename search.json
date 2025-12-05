@@ -18,7 +18,7 @@
     "href": "posts/panthers-2024-2025-Stanley-Cup-run/index.html",
     "title": "Florida Panthers 2024-25 Stanley Cup Run",
     "section": "",
-    "text": "The 2024-25 Panthers won the cup in a resounding fashion. What led to their championship win?"
+    "text": "The 2024-25 Panthers won the cup in a resounding fashion. What led to their championship win?\n\n\nCode\nlibrary(tidyverse)\nlibrary(ggrepel)"
   },
   {
     "objectID": "index.html",
