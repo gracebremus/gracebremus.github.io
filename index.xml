@@ -552,12 +552,12 @@ font-style: inherit;">0</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">xmax =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">80</span>,</span>
+font-style: inherit;">70</span>,</span>
 <span id="cb3-17">        <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">ymin =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">100</span>, <span class="at" style="color: #657422;
+font-style: inherit;">150</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">ymax =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -792,7 +792,15 @@ font-style: inherit;">labs</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Iowa Women's Soccer: Score Differential vs. Fouls per Game"</span>,</span>
+font-style: inherit;">"Iowa Women's Soccer: Score Differential vs. Fouls per Game"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"iowa got less agressive throughout the season"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Source: Iowa Athletics"</span>,</span>
 <span id="cb5-3">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
